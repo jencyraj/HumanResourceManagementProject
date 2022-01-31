@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1CC803BB-9917-4C6D-8D95-DA6218B5607F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HRM.BOL</RootNamespace>
+    <AssemblyName>HRM.BOL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\HRM.BOL.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\HRM.BOL.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdvSalaryBOL.cs" />
+    <Compile Include="AllowanceBOL.cs" />
+    <Compile Include="AppraisalPeriodBOL.cs" />
+    <Compile Include="AppraisalCompetencyBOL.cs" />
+    <Compile Include="AppraisalReviewBOL.cs" />
+    <Compile Include="AssetTypesBOL.cs" />
+    <Compile Include="AssetsBOL.cs" />
+    <Compile Include="AttendanceBOL.cs" />
+    <Compile Include="AttendanceTypeBOL.cs" />
+    <Compile Include="AttRegularBOL.cs" />
+    <Compile Include="BenefitBOL.cs" />
+    <Compile Include="BonusBOL.cs" />
+    <Compile Include="CandidateEducationBOL.cs" />
+    <Compile Include="CandidateExperienceBOL.cs" />
+    <Compile Include="CandidateProfileBOL.cs" />
+    <Compile Include="CheckListBOL.cs" />
+    <Compile Include="CommissionBOL.cs" />
+    <Compile Include="ComplaintsBOL.cs" />
+    <Compile Include="ContractTypeBOL.cs" />
+    <Compile Include="ContractsBOL.cs" />
+    <Compile Include="EmpCodeSettBOL.cs" />
+    <Compile Include="ImportIrisidBOL.cs" />
+    <Compile Include="IrisDataBOL.cs" />
+    <Compile Include="IrisSynchronizationBOL.cs" />
+    <Compile Include="LeaveRuleBOL.cs" />
+    <Compile Include="LOPDeductionBOL.cs" />
+    <Compile Include="MessagesBOL.cs" />
+    <Compile Include="EmpAppraisalBOL.cs" />
+    <Compile Include="JobTitleBOL.cs" />
+    <Compile Include="LangDataBOL.cs" />
+    <Compile Include="NotificationBOL.cs" />
+    <Compile Include="OverTimeBOL.cs" />
+    <Compile Include="OverTimeWageBOL.cs" />
+    <Compile Include="ReqTypeBOL.cs" />
+    <Compile Include="TrainingBOL.cs" />
+    <Compile Include="TrainingTypeBOL.cs" />
+    <Compile Include="WorkPlanBOL.cs" />
+    <Compile Include="WorkShiftsBOL.cs" />
+    <Compile Include="HourlyWageBOL.cs" />
+    <Compile Include="PayrollPeriodBOL.cs" />
+    <Compile Include="PayrollTemplateBOL.cs" />
+    <Compile Include="TerminationBOL.cs" />
+    <Compile Include="ResignationBOL.cs" />
+    <Compile Include="MemoBOL.cs" />
+    <Compile Include="WarningsBOL.cs" />
+    <Compile Include="DeductionBOL.cs" />
+    <Compile Include="EmpTransferBOL.cs" />
+    <Compile Include="RatingBOL.cs" />
+    <Compile Include="HolidayBOL.cs" />
+    <Compile Include="LeaveBOL.cs" />
+    <Compile Include="LeaveTypesBOL.cs" />
+    <Compile Include="RegnTypesBOL.cs" />
+    <Compile Include="EmailBOL.cs" />
+    <Compile Include="OrgDesignationBOL.cs" />
+    <Compile Include="PermissionBOL.cs" />
+    <Compile Include="TaxRuleBOL.cs" />
+    <Compile Include="UserBOL.cs" />
+    <Compile Include="RoleBOL.cs" />
+    <Compile Include="OrgDepartmentBOL.cs" />
+    <Compile Include="OrgBranchesBOL.cs" />
+    <Compile Include="EmployeeBOL.cs" />
+    <Compile Include="OrganisationBOL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\HRM.BOL.dll" />
+    <Content Include="bin\Debug\HRM.BOL.pdb" />
+    <Content Include="bin\Release\HRM.BOL.dll" />
+    <Content Include="bin\Release\HRM.BOL.pdb" />
+    <Content Include="obj\Debug\HRM.BOL.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\HRM.BOL.dll" />
+    <Content Include="obj\Debug\HRM.BOL.pdb" />
+    <Content Include="obj\Release\HRM.BOL.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Release\HRM.BOL.dll" />
+    <Content Include="obj\Release\HRM.BOL.pdb" />
+    <Content Include="obj\x64\Debug\HRM.BOL.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\x64\Debug\HRM.BOL.dll" />
+    <Content Include="obj\x64\Debug\HRM.BOL.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\x64\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="obj\x64\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

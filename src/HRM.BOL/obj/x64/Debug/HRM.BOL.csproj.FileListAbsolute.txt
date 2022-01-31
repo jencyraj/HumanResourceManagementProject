@@ -1,0 +1,4 @@
+D:\Sreedevi\Applications\HR\SOURCE\HRMArabic\HRM.BOL\bin\x64\Debug\HRM.BOL.dll
+D:\Sreedevi\Applications\HR\SOURCE\HRMArabic\HRM.BOL\bin\x64\Debug\HRM.BOL.pdb
+D:\Sreedevi\Applications\HR\SOURCE\HRMArabic\HRM.BOL\obj\x64\Debug\HRM.BOL.dll
+D:\Sreedevi\Applications\HR\SOURCE\HRMArabic\HRM.BOL\obj\x64\Debug\HRM.BOL.pdb
