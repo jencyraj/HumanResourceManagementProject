@@ -1,0 +1,9 @@
+D:\Sreedevi\Applications\HR\SOURCE\HRMArabic\HRM.BAL\bin\x64\Debug\HRM.BAL.dll
+D:\Sreedevi\Applications\HR\SOURCE\HRMArabic\HRM.BAL\bin\x64\Debug\HRM.BAL.pdb
+D:\Sreedevi\Applications\HR\SOURCE\HRMArabic\HRM.BAL\bin\x64\Debug\HRM.BOL.dll
+D:\Sreedevi\Applications\HR\SOURCE\HRMArabic\HRM.BAL\bin\x64\Debug\HRM.DAL.dll
+D:\Sreedevi\Applications\HR\SOURCE\HRMArabic\HRM.BAL\bin\x64\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\Sreedevi\Applications\HR\SOURCE\HRMArabic\HRM.BAL\bin\x64\Debug\HRM.BOL.pdb
+D:\Sreedevi\Applications\HR\SOURCE\HRMArabic\HRM.BAL\bin\x64\Debug\HRM.DAL.pdb
+D:\Sreedevi\Applications\HR\SOURCE\HRMArabic\HRM.BAL\obj\x64\Debug\HRM.BAL.dll
+D:\Sreedevi\Applications\HR\SOURCE\HRMArabic\HRM.BAL\obj\x64\Debug\HRM.BAL.pdb

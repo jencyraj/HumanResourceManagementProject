@@ -1,0 +1,11 @@
+D:\Sreedevi\Applications\HR\SOURCE\HRM\HRM.BAL\bin\Release\HRM.BAL.dll
+D:\Sreedevi\Applications\HR\SOURCE\HRM\HRM.BAL\bin\Release\HRM.BAL.pdb
+D:\Sreedevi\Applications\HR\SOURCE\HRM\HRM.BAL\bin\Release\HRM.BOL.dll
+D:\Sreedevi\Applications\HR\SOURCE\HRM\HRM.BAL\bin\Release\HRM.DAL.dll
+D:\Sreedevi\Applications\HR\SOURCE\HRM\HRM.BAL\bin\Release\Microsoft.ApplicationBlocks.Data.dll
+D:\Sreedevi\Applications\HR\SOURCE\HRM\HRM.BAL\bin\Release\HRM.BOL.pdb
+D:\Sreedevi\Applications\HR\SOURCE\HRM\HRM.BAL\bin\Release\HRM.DAL.pdb
+D:\Sreedevi\Applications\HR\SOURCE\HRM\HRM.BAL\obj\Release\HRM.BAL.dll
+D:\Sreedevi\Applications\HR\SOURCE\HRM\HRM.BAL\obj\Release\HRM.BAL.pdb
+D:\Sreedevi\Applications\HR\SOURCE\HRMArabic\HRM.BAL\obj\Release\HRM.BAL.csprojResolveAssemblyReference.cache
+D:\Sreedevi\Applications\HR\SOURCE\HRMArabic\HRM.BAL\obj\Release\HRM.BAL.pdb
