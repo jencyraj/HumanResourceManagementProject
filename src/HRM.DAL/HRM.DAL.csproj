@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A414B42E-479F-4FB3-9DF8-C12C4BDBAEEA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HRM.DAL</RootNamespace>
+    <AssemblyName>HRM.DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\HRM.DAL.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\HRM.DAL.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HRM.BOL">
+      <HintPath>..\HRM.BOL\bin\Debug\HRM.BOL.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.iCAM70003SDKCLib">
+      <HintPath>..\..\..\SDK sample Source\obj\Debug\Interop.iCAM70003SDKCLib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationBlocks.Data">
+      <HintPath>..\..\..\..\..\DLLS\Microsoft.ApplicationBlocks.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdvSalaryDAL.cs" />
+    <Compile Include="AlertsDAL.cs" />
+    <Compile Include="AppraisalPeriodDAL.cs" />
+    <Compile Include="AppraisalCompetencyDAL.cs" />
+    <Compile Include="AllowanceDAL.cs" />
+    <Compile Include="AppraisalReviewDAL.cs" />
+    <Compile Include="AssetTypesDAL.cs" />
+    <Compile Include="AssetsDAL.cs" />
+    <Compile Include="AttendanceDAL.cs" />
+    <Compile Include="AttendanceTypeDAL.cs" />
+    <Compile Include="AttReularDAL.cs" />
+    <Compile Include="BenefitDAL.cs" />
+    <Compile Include="Bitmap.cs" />
+    <Compile Include="BonusDAL.cs" />
+    <Compile Include="CandidateProfileDAL.cs" />
+    <Compile Include="CheckListDAL.cs" />
+    <Compile Include="CommissionDAL.cs" />
+    <Compile Include="ComplaintsDAL.cs" />
+    <Compile Include="ContractTypeDAL.cs" />
+    <Compile Include="ContractsDAL.cs" />
+    <Compile Include="AppraisalTemplateDAL.cs" />
+    <Compile Include="EmpCodeSettDAL.cs" />
+    <Compile Include="ExitInterviewDAL.cs" />
+    <Compile Include="GetIrisDetails.cs" />
+    <Compile Include="iCAMManagerAPI.cs" />
+    <Compile Include="ImportIrisDAL.cs" />
+    <Compile Include="irisBackupDAL.cs" />
+    <Compile Include="IrisConnectivity.cs" />
+    <Compile Include="IrisConstants.cs" />
+    <Compile Include="IrisDataDAL.cs" />
+    <Compile Include="IrisDeviceDAL.cs" />
+    <Compile Include="IrisRestoreDAL.cs" />
+    <Compile Include="irisSyncDAL.cs" />
+    <Compile Include="IrisSynchronizationDAL.cs" />
+    <Compile Include="IrisUtility.cs" />
+    <Compile Include="LeaveRuleDAL.cs" />
+    <Compile Include="LOPDeductionDAL.cs" />
+    <Compile Include="MessagesDAL.cs" />
+    <Compile Include="EmpAppraisalDAL.cs" />
+    <Compile Include="JobTitleDAL.cs" />
+    <Compile Include="MonthsDAL.cs" />
+    <Compile Include="LangDataDAL.cs" />
+    <Compile Include="NationalityDAL.cs" />
+    <Compile Include="NotificationDAL.cs" />
+    <Compile Include="OverTimeDAL.cs" />
+    <Compile Include="OverTimeWageDAL.cs" />
+    <Compile Include="ReqTypeDAL.cs" />
+    <Compile Include="SettingsDAL.cs" />
+    <Compile Include="TimeSheetDAL.cs" />
+    <Compile Include="TrainingDAL.cs" />
+    <Compile Include="TrainingTypeDAL.cs" />
+    <Compile Include="WorkPlanDAL.cs" />
+    <Compile Include="WorkShiftsDAL.cs" />
+    <Compile Include="HourlyWageDAL.cs" />
+    <Compile Include="PayrollPeriodDAL.cs" />
+    <Compile Include="PayrollTemplateDAL.cs" />
+    <Compile Include="TerminationDAL.cs" />
+    <Compile Include="ResignationDAL.cs" />
+    <Compile Include="MemoDAL.cs" />
+    <Compile Include="WarningsDAL.cs" />
+    <Compile Include="EmpTransferDAL.cs" />
+    <Compile Include="DeductionDAL.cs" />
+    <Compile Include="DBBackUpDAL.cs" />
+    <Compile Include="RatingDAL.cs" />
+    <Compile Include="LeaveDAL.cs" />
+    <Compile Include="HolidayDAL.cs" />
+    <Compile Include="LeaveTypesDAL.cs" />
+    <Compile Include="EduLevelDAL.cs" />
+    <Compile Include="EmplStatusDAL.cs" />
+    <Compile Include="RegnTypesDAL.cs" />
+    <Compile Include="EmailDAL.cs" />
+    <Compile Include="OrgDesignationDAL.cs" />
+    <Compile Include="PermissionDAL.cs" />
+    <Compile Include="ReportingOfficersDAL.cs" />
+    <Compile Include="TaxRuleDAL.cs" />
+    <Compile Include="UserDAL.cs" />
+    <Compile Include="RoleDAL.cs" />
+    <Compile Include="OrgDepartmentDAL.cs" />
+    <Compile Include="OrgBranchesDAL.cs" />
+    <Compile Include="CountryDAL.cs" />
+    <Compile Include="DataAccess.cs" />
+    <Compile Include="EmployeeDAL.cs" />
+    <Compile Include="OrganisationDAL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util.cs" />
+    <Compile Include="WorkWeekDAL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\HRM.DAL.dll" />
+    <Content Include="bin\Debug\HRM.DAL.pdb" />
+    <Content Include="bin\Debug\Microsoft.ApplicationBlocks.Data.dll" />
+    <Content Include="bin\Release\HRM.BOL.dll" />
+    <Content Include="bin\Release\HRM.BOL.pdb" />
+    <Content Include="bin\Release\HRM.DAL.dll" />
+    <Content Include="bin\Release\HRM.DAL.pdb" />
+    <Content Include="bin\Release\Microsoft.ApplicationBlocks.Data.dll" />
+    <Content Include="obj\Debug\HRM.DAL.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\HRM.DAL.dll" />
+    <Content Include="obj\Debug\HRM.DAL.pdb" />
+    <Content Include="obj\Release\HRM.DAL.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Release\HRM.DAL.dll" />
+    <Content Include="obj\Release\HRM.DAL.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\build.force" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\HRM.DAL.csprojResolveAssemblyReference.cache" />
+    <None Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Release\HRM.DAL.csprojResolveAssemblyReference.cache" />
+    <None Include="obj\x64\Debug\build.force" />
+    <None Include="obj\x64\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\x64\Debug\" />
+    <Folder Include="bin\x64\Release\" />
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="obj\x64\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
