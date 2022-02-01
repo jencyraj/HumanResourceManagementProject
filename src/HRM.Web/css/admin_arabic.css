@@ -1,0 +1,79 @@
+﻿body {
+	text-align:right;
+	unicode-bidi:bidi-override;
+  direction:rtl;
+}
+/*right side - contins main content*/
+.right-side {
+  background-color: #f9f9f9;
+  margin-right: 220px;
+}
+/*left side - contains sidebar*/
+.left-side {
+  position: absolute;
+  width: 220px;
+  top: 0;
+}
+.left-side {
+	right:0;
+}
+form > .header .navbar .sidebar-toggle {
+  float: right;}
+form > .header .navbar {
+  margin-right: 220px;
+}
+form > .header .logo {
+  float: right;}
+.right-side > .content-header > .breadcrumb {
+  left: 10px;
+}
+.small-box .icon {
+  left: 5px;
+}
+.sidebar-menu .pull-right {
+	float:left !important;
+}
+.user-panel .pull-left {
+	float:right !important;
+}
+
+@media screen and (min-width: 992px) {
+  .left-side {
+    top: 50px;
+  }
+  /*Right side strech mode*/
+  .right-side.strech {
+    margin-right: 0;
+  }
+  .right-side.strech > .content-header {
+    margin-top: 0px;
+  }
+  /* Left side collapse */
+  .left-side.collapse-left {
+    left: -220px;
+  }
+}
+/*Give content full width on xs screens*/
+@media screen and (max-width: 992px) {
+  .right-side {
+    margin-left: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .col-lg-1,
+  .col-lg-2,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-6,
+  .col-lg-7,
+  .col-lg-8,
+  .col-lg-9,
+  .col-lg-10,
+  .col-lg-11,
+  .col-lg-12 {
+    float: right;
+  }
+.fr-left{float:right !important;} 
+.fr-right{float:left !important;} 
+.dvright{margin-right:150px !important}

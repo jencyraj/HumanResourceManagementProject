@@ -1,0 +1,141 @@
+﻿using System;
+using System.Configuration;
+using System.Data;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+using HRM.BOL;
+using HRM.BAL;
+
+public partial class AddComplaint : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        lblMsg.Text = "";
+        lblErr.Text = "";
+
+        if (!IsPostBack)
+        {
+            ViewState["permissions"] = Util.CheckPermission((DataSet)Session["PERMISSIONS"], "Complaints.aspx");
+            GetComplaintDetails();
+        }
+    }
+
+    private void GetComplaintDetails()
+    {
+
+        ComplaintsBOL objBOL = new ComplaintsBOL();
+        ComplaintsBAL objBAL = new ComplaintsBAL();
+
+        lblComplaintID.Text = "" + Request.QueryString["id"];
+        if (Util.ToInt(lblComplaintID.Text) == 0) return;
+        h1.InnerText = LI1.InnerText = "Edit Complaint Details";
+        objBOL = objBAL.SelectByID(Util.ToInt(lblComplaintID.Text));
+        txtCode.Text = objBOL.ComplaintCode;
+        txtComplaint.Text = objBOL.ComplaintName;
+        txtPrice.Text = objBOL.ComplaintPrice.ToString();
+        txtDesc.Text = objBOL.ComplaintDesc;
+        txtAddInfo.Text = objBOL.AdditionalInfo;
+        txtExpiry.Text = objBOL.ExpiryDate;
+        txtPurchDate.Text = objBOL.PurchasedOn;
+        txtPurchFrom.Text = objBOL.PurchasedFrom;
+        txtStock.Text = objBOL.ComplaintCount;
+        ddlComplaintType.SelectedValue = objBOL.ComplaintTypeID.ToString();
+        ddlBranch.SelectedValue = objBOL.BranchID.ToString();
+        lnkImage1.Text = objBOL.ComplaintImage1;
+        lnkImage2.Text = objBOL.ComplaintImage2;
+
+        string sPath = ConfigurationManager.AppSettings["ComplaintPHOTO"] + lblComplaintID.Text + "\\";
+        if (lnkImage1.Text != "")
+            lnkImage1.NavigateUrl = sPath + lnkImage1.Text;
+        if (lnkImage2.Text != "")
+            lnkImage2.NavigateUrl = sPath + lnkImage2.Text;
+
+    }
+
+    protected void btnSave_Click(object sender, EventArgs e)
+    {
+        //dvMsg.Visible = true;
+
+        try
+        {
+            ComplaintsBAL objBAL = new ComplaintsBAL();
+            ComplaintsBOL objBol = new ComplaintsBOL();
+
+            objBol.ComplaintID = Util.ToInt(lblComplaintID.Text);
+            objBol.BranchID = Util.ToInt(ddlBranch.SelectedValue);
+            objBol.ComplaintTypeID = Util.ToInt(ddlComplaintType.SelectedValue);
+            objBol.ComplaintCode = txtCode.Text.Trim();
+            objBol.ComplaintName = txtComplaint.Text.Trim();
+            objBol.ComplaintDesc = txtDesc.Text.Trim();
+            objBol.ComplaintPrice = Util.ToDecimal(txtPrice.Text.Trim());
+            objBol.PurchasedFrom = txtPurchFrom.Text.Trim();
+            objBol.PurchasedOn = txtPurchDate.Text.Trim();
+            objBol.ExpiryDate = txtExpiry.Text.Trim();
+            objBol.ComplaintCount = txtStock.Text.Trim();
+            objBol.AdditionalInfo = txtAddInfo.Text.Trim();
+            objBol.CreatedBy = User.Identity.Name;
+            objBol.ComplaintID = objBAL.Save(objBol);
+            lblComplaintID.Text = objBol.ComplaintID.ToString();
+            UploadImages(objBol);
+            lblMsg.Text = "Complaint saved successfully";
+            Clear();
+            Response.Redirect("Complaints.aspx?saved=1");
+        }
+        catch (Exception ex)
+        {
+            lblErr.Text = ex.Message;
+        }
+    }
+
+    private void UploadImages(ComplaintsBOL objBOL)
+    {
+        ComplaintsBAL objBAL = new ComplaintsBAL();
+
+        if (fpImg1.HasFile)
+        {
+            string sPath = ConfigurationManager.AppSettings["ComplaintPHOTO"];
+            sPath += lblComplaintID.Text + "\\";
+            if (System.IO.File.Exists(Server.MapPath(sPath) + lnkImage1.Text))
+                System.IO.File.Delete(Server.MapPath(sPath) + lnkImage1.Text);
+            if (!System.IO.Directory.Exists(Server.MapPath(sPath)))
+                System.IO.Directory.CreateDirectory(Server.MapPath(sPath));
+            fpImg1.SaveAs(Server.MapPath(sPath) + fpImg1.FileName);
+            lnkImage1.Text = fpImg1.FileName;
+        }
+        if (fpImg2.HasFile)
+        {
+            string sPath = ConfigurationManager.AppSettings["ComplaintPHOTO"];
+            sPath += lblComplaintID.Text + "\\";
+            if (System.IO.File.Exists(Server.MapPath(sPath) + lnkImage2.Text))
+                System.IO.File.Delete(Server.MapPath(sPath) + lnkImage2.Text);
+            if (!System.IO.Directory.Exists(Server.MapPath(sPath)))
+                System.IO.Directory.CreateDirectory(Server.MapPath(sPath));
+            fpImg2.SaveAs(Server.MapPath(sPath) + fpImg2.FileName);
+            lnkImage2.Text = fpImg2.FileName;
+        }
+
+        objBOL.ComplaintImage1 = lnkImage1.Text;
+        objBOL.ComplaintImage2 = lnkImage2.Text;
+
+        objBAL.Save(objBOL);
+    }
+    private void Clear()
+    {
+        lblComplaintID.Text = "";
+        txtComplaint.Text = "";
+
+    }
+     
+    protected void btnCancel_Click(object sender, EventArgs e)
+    {
+        Clear();
+    }
+
+    protected void btnNew_Click(object sender, EventArgs e)
+    {
+        Clear();
+    }
+    
+}
