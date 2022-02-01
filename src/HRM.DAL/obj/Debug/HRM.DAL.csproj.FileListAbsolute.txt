@@ -1,0 +1,77 @@
+D:\Sreedevi\Applications\HR\SOURCE\HRM\HRM.DAL\obj\Debug\HRM.DAL.csprojResolveAssemblyReference.cache
+D:\Sreedevi\Applications\HR\SOURCE\HRM\HRM.DAL\bin\Debug\HRM.DAL.dll
+D:\Sreedevi\Applications\HR\SOURCE\HRM\HRM.DAL\bin\Debug\HRM.DAL.pdb
+D:\Sreedevi\Applications\HR\SOURCE\HRM\HRM.DAL\bin\Debug\HRM.BOL.dll
+D:\Sreedevi\Applications\HR\SOURCE\HRM\HRM.DAL\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\Sreedevi\Applications\HR\SOURCE\HRM\HRM.DAL\bin\Debug\HRM.BOL.pdb
+D:\Sreedevi\Applications\HR\SOURCE\HRM\HRM.DAL\obj\Debug\HRM.DAL.dll
+D:\Sreedevi\Applications\HR\SOURCE\HRM\HRM.DAL\obj\Debug\HRM.DAL.pdb
+D:\Sreedevi\Applications\HR\SOURCE\HRMArabic\HRM.DAL\bin\Debug\HRM.DAL.dll
+D:\Sreedevi\Applications\HR\SOURCE\HRMArabic\HRM.DAL\bin\Debug\HRM.DAL.pdb
+D:\Sreedevi\Applications\HR\SOURCE\HRMArabic\HRM.DAL\bin\Debug\HRM.BOL.dll
+D:\Sreedevi\Applications\HR\SOURCE\HRMArabic\HRM.DAL\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\Sreedevi\Applications\HR\SOURCE\HRMArabic\HRM.DAL\bin\Debug\HRM.BOL.pdb
+D:\Sreedevi\Applications\HR\SOURCE\HRMArabic\HRM.DAL\obj\Debug\HRM.DAL.csprojResolveAssemblyReference.cache
+D:\Sreedevi\Applications\HR\SOURCE\HRMArabic\HRM.DAL\obj\Debug\HRM.DAL.dll
+D:\Sreedevi\Applications\HR\SOURCE\HRMArabic\HRM.DAL\obj\Debug\HRM.DAL.pdb
+D:\fromE\Jency\Applications\New folder\HRMArabic\HRM.DAL\obj\Debug\HRM.DAL.dll
+D:\fromE\Jency\Applications\New folder\HRMArabic\HRM.DAL\obj\Debug\HRM.DAL.pdb
+D:\fromE\Jency\Applications\New folder\HRMArabic\HRM.DAL\bin\Debug\HRM.DAL.dll
+D:\fromE\Jency\Applications\New folder\HRMArabic\HRM.DAL\bin\Debug\HRM.DAL.pdb
+D:\fromE\Jency\Applications\New folder\HRMArabic\HRM.DAL\bin\Debug\HRM.BOL.dll
+D:\fromE\Jency\Applications\New folder\HRMArabic\HRM.DAL\bin\Debug\HRM.BOL.pdb
+D:\fromE\Jency\Applications\New folder\HRMArabic\HRM.DAL\obj\Debug\HRM.DAL.csprojResolveAssemblyReference.cache
+E:\latest\HRMArabic\HRM.DAL\bin\Debug\HRM.DAL.dll
+E:\latest\HRMArabic\HRM.DAL\bin\Debug\HRM.DAL.pdb
+E:\latest\HRMArabic\HRM.DAL\bin\Debug\HRM.BOL.dll
+E:\latest\HRMArabic\HRM.DAL\bin\Debug\HRM.BOL.pdb
+E:\latest\HRMArabic\HRM.DAL\obj\Debug\HRM.DAL.csprojResolveAssemblyReference.cache
+E:\latest\HRMArabic\HRM.DAL\obj\Debug\HRM.DAL.dll
+E:\latest\HRMArabic\HRM.DAL\obj\Debug\HRM.DAL.pdb
+E:\HRM-MERGE\latest\HRMArabic\HRM.DAL\bin\Debug\HRM.DAL.dll
+E:\HRM-MERGE\latest\HRMArabic\HRM.DAL\bin\Debug\HRM.DAL.pdb
+E:\HRM-MERGE\latest\HRMArabic\HRM.DAL\obj\Debug\HRM.DAL.dll
+E:\HRM-MERGE\latest\HRMArabic\HRM.DAL\obj\Debug\HRM.DAL.pdb
+E:\HRM-MERGE\latest\HRMArabic\HRM.DAL\bin\Debug\HRM.BOL.pdb
+E:\HRM-MERGE\latest\HRMArabic\HRM.DAL\obj\Debug\HRM.DAL.csprojResolveAssemblyReference.cache
+E:\Nivitha\Projects\CurrentTest\latest\HRMArabic\HRM.DAL\bin\Debug\HRM.DAL.dll
+E:\Nivitha\Projects\CurrentTest\latest\HRMArabic\HRM.DAL\bin\Debug\HRM.DAL.pdb
+E:\Nivitha\Projects\CurrentTest\latest\HRMArabic\HRM.DAL\bin\Debug\HRM.BOL.pdb
+E:\Nivitha\Projects\CurrentTest\latest\HRMArabic\HRM.DAL\obj\Debug\HRM.DAL.csprojResolveAssemblyReference.cache
+E:\Nivitha\Projects\CurrentTest\latest\HRMArabic\HRM.DAL\obj\Debug\HRM.DAL.dll
+E:\Nivitha\Projects\CurrentTest\latest\HRMArabic\HRM.DAL\obj\Debug\HRM.DAL.pdb
+E:\Nivitha\Projects\Live_Projects_2015\HRM_Old\HRM.DAL\bin\Debug\HRM.DAL.dll
+E:\Nivitha\Projects\Live_Projects_2015\HRM_Old\HRM.DAL\bin\Debug\HRM.DAL.pdb
+E:\Nivitha\Projects\Live_Projects_2015\HRM_Old\HRM.DAL\obj\Debug\HRM.DAL.dll
+E:\Nivitha\Projects\Live_Projects_2015\HRM_Old\HRM.DAL\obj\Debug\HRM.DAL.pdb
+E:\Nivitha\Projects\Live_Projects_2015\HRM_Old\HRM.DAL\obj\Debug\HRM.DAL.csprojResolveAssemblyReference.cache
+E:\Nivitha\Projects\Live_Projects_2015\HRM_Old\HRM.DAL\bin\Debug\HRM.BOL.dll
+E:\Nivitha\Projects\Live_Projects_2015\HRM_Old\HRM.DAL\bin\Debug\HRM.BOL.pdb
+E:\Nivitha\Projects\Live_Projects_2015\Backup\IHRM-30-06-2016\HRM_Old\HRM.DAL\bin\Debug\HRM.DAL.dll
+E:\Nivitha\Projects\Live_Projects_2015\Backup\IHRM-30-06-2016\HRM_Old\HRM.DAL\bin\Debug\HRM.DAL.pdb
+E:\Nivitha\Projects\Live_Projects_2015\Backup\IHRM-30-06-2016\HRM_Old\HRM.DAL\bin\Debug\HRM.BOL.dll
+E:\Nivitha\Projects\Live_Projects_2015\Backup\IHRM-30-06-2016\HRM_Old\HRM.DAL\bin\Debug\HRM.BOL.pdb
+E:\Nivitha\Projects\Live_Projects_2015\Backup\IHRM-30-06-2016\HRM_Old\HRM.DAL\obj\Debug\HRM.DAL.dll
+E:\Nivitha\Projects\Live_Projects_2015\Backup\IHRM-30-06-2016\HRM_Old\HRM.DAL\obj\Debug\HRM.DAL.pdb
+E:\Nivitha\Projects\Live_Projects_2015\Backup\IHRM-30-06-2016\HRM_Old\HRM.DAL\obj\Debug\HRM.DAL.csprojResolveAssemblyReference.cache
+E:\Nivitha\Projects\Live_Projects_2015\Backup\IHRM-Latest\HRM_Old\HRM.DAL\bin\Debug\HRM.DAL.dll
+E:\Nivitha\Projects\Live_Projects_2015\Backup\IHRM-Latest\HRM_Old\HRM.DAL\bin\Debug\HRM.DAL.pdb
+E:\Nivitha\Projects\Live_Projects_2015\Backup\IHRM-Latest\HRM_Old\HRM.DAL\bin\Debug\HRM.BOL.dll
+E:\Nivitha\Projects\Live_Projects_2015\Backup\IHRM-Latest\HRM_Old\HRM.DAL\bin\Debug\HRM.BOL.pdb
+E:\Nivitha\Projects\Live_Projects_2015\Backup\IHRM-Latest\HRM_Old\HRM.DAL\obj\Debug\HRM.DAL.csprojResolveAssemblyReference.cache
+E:\Nivitha\Projects\Live_Projects_2015\Backup\IHRM-Latest\HRM_Old\HRM.DAL\obj\Debug\HRM.DAL.dll
+E:\Nivitha\Projects\Live_Projects_2015\Backup\IHRM-Latest\HRM_Old\HRM.DAL\obj\Debug\HRM.DAL.pdb
+E:\HRM-26-05-2016\HRM_Latest-22-09-2016\HRM.DAL\bin\Debug\HRM.DAL.dll
+E:\HRM-26-05-2016\HRM_Latest-22-09-2016\HRM.DAL\bin\Debug\HRM.DAL.pdb
+E:\HRM-26-05-2016\HRM_Latest-22-09-2016\HRM.DAL\bin\Debug\HRM.BOL.dll
+E:\HRM-26-05-2016\HRM_Latest-22-09-2016\HRM.DAL\bin\Debug\HRM.BOL.pdb
+E:\HRM-26-05-2016\HRM_Latest-22-09-2016\HRM.DAL\obj\Debug\HRM.DAL.dll
+E:\HRM-26-05-2016\HRM_Latest-22-09-2016\HRM.DAL\obj\Debug\HRM.DAL.pdb
+E:\HRM-26-05-2016\HRM_Latest-22-09-2016\HRM.DAL\obj\Debug\HRM.DAL.csprojResolveAssemblyReference.cache
+D:\HRM-26-05-2016\HRM_Latest-22-09-2016\HRM.DAL\bin\Debug\HRM.DAL.dll
+D:\HRM-26-05-2016\HRM_Latest-22-09-2016\HRM.DAL\bin\Debug\HRM.DAL.pdb
+D:\HRM-26-05-2016\HRM_Latest-22-09-2016\HRM.DAL\bin\Debug\HRM.BOL.dll
+D:\HRM-26-05-2016\HRM_Latest-22-09-2016\HRM.DAL\bin\Debug\HRM.BOL.pdb
+D:\HRM-26-05-2016\HRM_Latest-22-09-2016\HRM.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\HRM-26-05-2016\HRM_Latest-22-09-2016\HRM.DAL\obj\Debug\HRM.DAL.dll
+D:\HRM-26-05-2016\HRM_Latest-22-09-2016\HRM.DAL\obj\Debug\HRM.DAL.pdb
