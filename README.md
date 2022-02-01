@@ -1,4 +1,4 @@
-# HumanvResource and Payroll Management Project
+# Human Resource and Payroll Management Project
 
 The Human Resource And Payroll Management System was designed to be a part of the enterprise resource
 planning *(ERP)* software and offers wide solutions for HR department making it possible for other
